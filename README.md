@@ -1,141 +1,109 @@
-<div align="center">
-
 # Nobex Wahengbam
 
-## Offensive Security • Active Directory • Red Teaming
+```{=html}
+<h3 align="center">
+```
+Offensive Security • Active Directory • Internal Network Penetration
+Testing
+```{=html}
+</h3>
+```
+```{=html}
+<p align="center">
+```
+Building enterprise Active Directory labs, simulating realistic attack
+paths, and producing professional offensive security documentation.
+```{=html}
+</p>
+```
 
-Building enterprise Active Directory labs, simulating realistic attack paths, and documenting offensive security methodologies.
+------------------------------------------------------------------------
 
+## About Me
 
+I am an aspiring **Offensive Security professional** with a background
+in **IT Support**, transitioning into **Internal Network Penetration
+Testing**.
 
-[LinkedIn](https://www.linkedin.com/in/wnobex/) • [Email](mailto:wnobex@gmail.com) • [Portfolio](#)
-
-</div>
-
----
-
-# More about me
-
-I am an **Offensive Security practitioner** focused on **Active Directory**, **Internal Network Penetration Testing**.
-
-My GitHub documents realistic enterprise lab environments where I simulate common attack paths, validate security controls, and produce professional technical documentation.
+My primary focus is building realistic enterprise Active Directory
+environments, performing offensive security assessments, documenting
+methodologies, and understanding attacks from both the offensive and
+defensive perspectives.
 
 ### Current Focus
 
-- Active Directory Security
-- Internal Network Pentesting
-- Red Team Methodologies
-- Privilege Escalation
-- Professional Reporting
+-   Active Directory Security
+-   Internal Network Penetration Testing
+-   Windows Enterprise Security
+-   Red Team Methodologies
+-   Privilege Escalation
+-   Professional Penetration Test Reporting
 
----
+------------------------------------------------------------------------
 
 # Enterprise Active Directory Lab
 
+An ongoing enterprise lab that simulates a corporate Active Directory
+environment.
+
 ## Infrastructure
 
-- Windows Server 2022 Domain Controller
-- Windows 10 Enterprise Clients
-- Kali Linux Attacker
-- Active Directory Domain
-- DNS
-- DHCP
-- SMB
-- LDAP
-- Kerberos
-- NTLM
+-   Windows Server 2022 Domain Controller
+-   Windows 10 Enterprise Clients
+-   Kali Linux Attacker
+-   Active Directory Domain
+-   DNS
+-   DHCP
+-   SMB
+-   LDAP
+-   Kerberos
+-   NTLM
 
-## Completed Attack Simulations
+## Current Attack Path Progress
 
-| Technique | Status |
-|-----------|--------|
-| Active Directory Lab | ✅ |
-| Windows Enumeration | ✅ |
-| Technical Documentation | ✅ |
+  Status   Topic
+  -------- ------------------------
+  ✅       LLMNR Poisoning
+  ✅       SMB Relay
+  🚧       BloodHound Enumeration
+  🚧       Kerberoasting
+  🚧       AS-REP Roasting
+  ⏳       Pass-the-Hash
+  ⏳       ACL Abuse
+  ⏳       Delegation Attacks
+  ⏳       DCSync
+  ⏳       Golden Ticket
 
----
-
-# Tool Arsenal
-
-## Languages
-
-Python • Bash
-
-## Offensive Security
-
-Metasploit • Wireshark • Burp Suite
-
----
+------------------------------------------------------------------------
 
 # Featured Projects
 
-<details>
-<summary><b>Enterprise Active Directory Home Lab Series</b></summary>
+-   Enterprise Active Directory Home Lab
+-   Active Directory Attack Series
+-   Internal Penetration Testing Write-ups
+-   Windows & Linux Enumeration
+-   Professional Reporting
+-   Python Security Automation (Coming Soon)
 
-Designed and deployed a realistic enterprise Active Directory environment for offensive security research.
+------------------------------------------------------------------------
 
-**Highlights**
+# Philosophy
 
-- Enterprise domain deployment
-- Windows authentication research
-- Attack simulation
-- Documentation
-- Defensive recommendations
+I focus on understanding **why** an attack works, how it is executed in
+enterprise environments, how defenders detect it, and how to document
+findings in a professional consulting style.
 
-</details>
+------------------------------------------------------------------------
 
-<details>
-<summary><b>Penetration Testing Walkthroughs</b></summary>
+## Goals (2026)
 
-Collection of professional write-ups covering enumeration, exploitation, privilege escalation, and remediation.
+-   Earn PJPT
+-   Secure my first Offensive Security role
+-   Continue expanding the Active Directory Attack Series
+-   Build reusable offensive security tooling
+-   Publish high-quality penetration testing documentation
 
-</details>
+------------------------------------------------------------------------
 
----
-
-# Offensive Security Methodology
-
-```text
-Reconnaissance
-      ↓
-Enumeration
-      ↓
-Vulnerability Discovery
-      ↓
-Credential Access
-      ↓
-Privilege Escalation
-      ↓
-Lateral Movement
-      ↓
-Documentation
-```
-
----
-
-# Current Focus
-
-```yaml
-Learning:
-  - Kerberos Attacks
-  - BloodHound
-  - Windows Internals
-
-Building:
-  - Enterprise Active Directory Lab
-  - Offensive Security Documentation
-
-Researching:
-  - Pass-the-Hash
-  - Kerberoasting
-  - ACL Abuse
-
-OpenTo:
-  - Penetration Testing
-  - Vulnerability Assessment
-  - Red Team
-```
-
----
-
-> *"Understanding how systems fail is the first step toward building systems that endure."*
+> "Learning offensive security through practical enterprise lab
+> environments, professional documentation, and continuous improvement."
