@@ -14,7 +14,7 @@ Building enterprise Active Directory labs, simulating realistic attack paths, an
 
 ---
 
-# About Me
+# More about me
 
 I am an **Offensive Security practitioner** focused on **Active Directory**, **Internal Network Penetration Testing**.
 
