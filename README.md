@@ -6,11 +6,9 @@
 
 Building enterprise Active Directory labs, simulating realistic attack paths, and documenting offensive security methodologies.
 
-![Profile Views](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=for-the-badge&color=6f42c1)
-![Followers](https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?style=for-the-badge&color=6f42c1)
-![Stars](https://img.shields.io/github/stars/YOUR_GITHUB_USERNAME?affiliations=OWNER&style=for-the-badge&color=6f42c1)
 
-[LinkedIn](YOUR_LINKEDIN_URL) • [Email](mailto:YOUR_EMAIL) • [Portfolio](#)
+
+[LinkedIn](https://www.linkedin.com/in/wnobex/) • [Email](mailto:wnobex@gmail.com) • [Portfolio](#)
 
 </div>
 
@@ -18,14 +16,13 @@ Building enterprise Active Directory labs, simulating realistic attack paths, an
 
 # About Me
 
-I am an **Offensive Security practitioner** focused on **Active Directory**, **Windows Security**, and **Internal Network Penetration Testing**.
+I am an **Offensive Security practitioner** focused on **Active Directory**, **Internal Network Penetration Testing**.
 
 My GitHub documents realistic enterprise lab environments where I simulate common attack paths, validate security controls, and produce professional technical documentation.
 
 ### Current Focus
 
 - Active Directory Security
-- Windows Authentication
 - Internal Network Pentesting
 - Red Team Methodologies
 - Privilege Escalation
