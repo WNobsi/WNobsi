@@ -1,27 +1,14 @@
 # Nobex Wahengbam
 
-```{=html}
-<h3 align="center">
-```
-Offensive Security • Active Directory • Internal Network Penetration
-Testing
-```{=html}
-</h3>
-```
-```{=html}
-<p align="center">
-```
-Building enterprise Active Directory labs, simulating realistic attack
-paths, and producing professional offensive security documentation.
-```{=html}
-</p>
-```
+## Offensive Security • Active Directory • Internal Network Penetration Testing
+
+### Building enterprise Active Directory labs, simulating realistic attack paths, and producing professional offensive security documentation.
 
 ------------------------------------------------------------------------
 
 ## About Me
 
-I am an aspiring **Offensive Security professional** with a background
+Focuesed as **Offensive Security professional** with a background
 in **IT Support**, transitioning into **Internal Network Penetration
 Testing**.
 
