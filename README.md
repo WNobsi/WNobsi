@@ -1,5 +1,3 @@
-# 👋 Nobex Wahengbam
-
 <div align="center">
 
 # Offensive Security • Active Directory • Red Teaming
