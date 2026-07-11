@@ -48,8 +48,6 @@ My GitHub documents realistic enterprise lab environments where I simulate commo
 | Technique | Status |
 |-----------|--------|
 | Active Directory Lab | ✅ |
-| LLMNR Poisoning | ✅ |
-| SMB Relay | ✅ |
 | Windows Enumeration | ✅ |
 | Technical Documentation | ✅ |
 
@@ -135,24 +133,6 @@ OpenTo:
   - Vulnerability Assessment
   - Red Team
 ```
-
----
-
-# GitHub Analytics
-
-```md
-https://github-readme-stats.vercel.app/api?username=WNobsi&show_icons=true&theme=tokyonight
-https://streak-stats.demolab.com?user=WNobsi&theme=tokyonight
-https://github-readme-stats.vercel.app/api/top-langs/?username=WNobsi&layout=compact&theme=tokyonight
-```
-
----
-
-# Connect
-
-- GitHub
-- LinkedIn
-- Email
 
 ---
 
