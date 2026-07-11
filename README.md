@@ -57,24 +57,20 @@ My GitHub documents realistic enterprise lab environments where I simulate commo
 
 # Tool Arsenal
 
-## Operating Systems
-
-Windows • Windows Server • Kali Linux • Ubuntu
-
 ## Languages
 
-Python • Bash • PowerShell
+Python • Bash
 
 ## Offensive Security
 
-Nmap • Responder • Impacket • Metasploit • Gobuster • Nikto • DNSRecon • Wireshark • Burp Suite • NetExec
+Metasploit • Wireshark • Burp Suite
 
 ---
 
 # Featured Projects
 
 <details>
-<summary><b>Enterprise Active Directory Home Lab</b></summary>
+<summary><b>Enterprise Active Directory Home Lab Series</b></summary>
 
 Designed and deployed a realistic enterprise Active Directory environment for offensive security research.
 
@@ -85,20 +81,6 @@ Designed and deployed a realistic enterprise Active Directory environment for of
 - Attack simulation
 - Documentation
 - Defensive recommendations
-
-</details>
-
-<details>
-<summary><b>LLMNR Poisoning</b></summary>
-
-Simulated credential capture attacks using Responder while documenting workflow, risks, and mitigations.
-
-</details>
-
-<details>
-<summary><b>SMB Relay</b></summary>
-
-Performed SMB Relay simulations using Impacket to understand NTLM relay attacks and SMB signing defenses.
 
 </details>
 
@@ -158,12 +140,10 @@ OpenTo:
 
 # GitHub Analytics
 
-Replace `YOUR_GITHUB_USERNAME` below.
-
 ```md
-https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight
-https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight
-https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight
+https://github-readme-stats.vercel.app/api?username=WNobsi&show_icons=true&theme=tokyonight
+https://streak-stats.demolab.com?user=WNobsi&theme=tokyonight
+https://github-readme-stats.vercel.app/api/top-langs/?username=WNobsi&layout=compact&theme=tokyonight
 ```
 
 ---
