@@ -1,6 +1,6 @@
 # Nobex Wahengbam
 
-## Offensive Security • Active Directory • Internal Network Penetration Testing
+## Offensive Security • Active Directory • Penetration Testing
 
 ### Building enterprise Active Directory labs, simulating realistic attack paths, and producing professional offensive security documentation.
 
