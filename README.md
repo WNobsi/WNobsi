@@ -4,9 +4,7 @@
 
 ### Offensive Security · Active Directory · Internal Network Penetration Testing
 
-[![PJPT](https://img.shields.io/badge/PJPT-TCM%20Security-CC0000?style=for-the-badge&logo=checkmarx&logoColor=white)](https://certifications.tcm-sec.com/pjpt/)
 [![Active Directory](https://img.shields.io/badge/Active%20Directory-Windows%20Server-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/WNobsi/Active-Directory-Home-Lab-VAPT)
-[![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)](https://www.kali.org/)
 [![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-Aligned-FF6B00?style=for-the-badge&logoColor=white)](https://attack.mitre.org/)
 
 *Building enterprise Active Directory labs · Simulating realistic attack chains · Documenting offensive security methodology*
@@ -214,7 +212,7 @@ Every attack in the lab is documented alongside its corresponding detection and 
 ## 🎯 Goals (2026)
 
 - ✅ Earn PJPT
-- 🔄 Continue expanding the Active Directory Attack Series
+- ✅ Active Directory Attack Series
 - ⏳ Secure first Offensive Security role
 - ⏳ Build reusable offensive security tooling
 - ⏳ Publish high-quality penetration testing documentation
