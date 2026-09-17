@@ -2,227 +2,199 @@
 
 # Nobex Wahengbam
 
-### Offensive Security · Active Directory · Internal Network Penetration Testing
+### PJPT-Certified Penetration Tester | Active Directory & Web Application Security
 
-[![Active Directory](https://img.shields.io/badge/Active%20Directory-Windows%20Server-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/WNobsi/Active-Directory-Home-Lab-VAPT)
-[![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-Aligned-FF6B00?style=for-the-badge&logoColor=white)](https://attack.mitre.org/)
+[![PJPT Certified](https://img.shields.io/badge/PJPT-Certified-00d4ff?style=for-the-badge&logo=security&logoColor=white)](https://certified.tcm-sec.com/6bd6e2e8-01d5-43f8-b508-d0544b58e4af)
+[![Active Directory](https://img.shields.io/badge/Active%20Directory-17%20Techniques-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/WNobsi/Active-Directory-Home-Lab-VAPT)
+[![OWASP Top 10](https://img.shields.io/badge/OWASP%20Top%2010-32%20Findings-FF6B00?style=for-the-badge&logoColor=white)](https://github.com/WNobsi/web-application-vapt-lab)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-00d4ff?style=for-the-badge&logo=github&logoColor=white)](https://wnobsi.github.io/portfolio/)
 
-*Building enterprise Active Directory labs · Simulating realistic attack chains · Documenting offensive security methodology*
+**📍 Mumbai, India** · **🎯 Open to Penetration Testing & Red Team Roles**
 
 </div>
 
 ---
 
-## 👤 About Me
+## 💼 Professional Summary
 
-Offensive Security practitioner with a background in **IT Support**, transitioning into **Internal Network Penetration Testing**. I focus on building and attacking realistic enterprise Active Directory environments, understanding attacks from both red and blue team perspectives, and producing professional-grade security documentation.
+PJPT-certified penetration tester with hands-on experience in **Active Directory exploitation** (17 documented attack techniques) and **web application security testing** (32 OWASP Top 10 findings). Proven ability to build realistic enterprise attack scenarios, document complete kill chains, and provide actionable remediation recommendations.
 
-**Current Focus:**
-- 🔴 Active Directory Red Team Operations
-- 🏗️ Realistic Internal Network Lab Construction
-- 🔑 Credential Access & Lateral Movement Chains
-- 📋 Professional Penetration Test Reporting
-- 🛡️ Defensive Mitigations & Hardening Guidance
-
----
-
-## 🏅 Certifications
-
-| Certification | Issuer | Domain |
-|---|---|---|
-| ✅ **PJPT** — Practical Junior Penetration Tester | [TCM Security](https://certifications.tcm-sec.com/pjpt/) | Internal Network / Active Directory Pentesting |
-
-> The PJPT exam involves performing a full internal network penetration test against an enterprise Active Directory environment and producing a professional pentest report — the skills demonstrated directly in this profile's lab work.
+**What I Bring to Your Team:**
+- ✅ Real-world penetration testing methodology (PTES, OWASP Testing Guide)
+- ✅ Complete attack documentation from reconnaissance to post-exploitation
+- ✅ MITRE ATT&CK framework mapping for threat intelligence alignment
+- ✅ Professional-grade security reports with CVSS scoring and business impact analysis
+- ✅ Defensive mindset — every attack paired with detection and mitigation strategies
 
 ---
 
-## 🏗️ Featured Project — Active Directory Home Lab (VAPT)
+## 🎓 Certifications
 
-[![AD Lab](https://img.shields.io/badge/View%20Lab-Active%20Directory%20Home%20Lab%20VAPT-0078D4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/WNobsi/Active-Directory-Home-Lab-VAPT)
-
-A complete, end-to-end penetration test of a self-built Windows Active Directory environment. The lab simulates a realistic enterprise domain (`BATMAN.local`) with a Domain Controller, two Windows workstations, and an isolated Kali Linux attacker — executing a full attack chain from unauthenticated network access to Domain Admin and Golden Ticket persistence.
-
-**Lab Architecture:**
-```
-╔══════════════════════════════════════════════════════╗
-║                  BATMAN.local Domain                 ║
-║                                                      ║
-║  ┌──────────────────┐     ┌──────────────────┐       ║
-║  │  Domain Controller│     │  Windows Client  │       ║
-║  │  192.168.126.139  │     │  192.168.126.140 │       ║
-║  │  BATMAN-DC        │     │  THEFLASH        │       ║
-║  └──────────────────┘     └──────────────────┘       ║
-║                                                      ║
-║  ┌──────────────────┐                                ║
-║  │  Windows Client  │                                ║
-║  │  192.168.126.141 │                                ║
-║  │  SUPERMAN        │                                ║
-║  └──────────────────┘                                ║
-╚══════════════════════════════════════════════════════╝
-                    │
-          (Isolated NAT Network)
-                    │
-     ┌─────────────────────┐
-     │   Attacker Machine  │
-     │   192.168.126.128   │
-     │   Kali Linux        │
-     └─────────────────────┘
-```
-
-**Attack Coverage — 17 Techniques across the full kill chain:**
-
-| # | Technique | MITRE ID | Tactic |
+| Certification | Issuer | Year | Verification |
 |---|---|---|---|
-| 1 | LLMNR Poisoning | T1557.001 | Credential Access |
-| 2 | SMB Relay Attack | T1557.001 | Credential Access |
-| 3 | IPv6 / mitm6 Attack | T1557 · T1136.002 | Credential Access · Persistence |
-| 4 | Gaining Shell Access | T1569.002 · T1550.002 | Execution · Lateral Movement |
-| 5 | Initial Internal Attack Strategy | T1590 · T1046 | Reconnaissance · Discovery |
-| 6 | Post-Compromise Enumeration | T1087.002 · T1069.002 · T1482 | Discovery |
-| 7 | Pass the Password / Pass the Hash | T1550.002 · T1021.002 | Lateral Movement |
-| 8 | Dumping & Cracking Hashes | T1003.002 · T1003.004 · T1110.002 | Credential Access |
-| 9 | Kerberoasting | T1558.003 | Credential Access |
-| 10 | Token Impersonation | T1134.001 | Privilege Escalation |
-| 11 | LNK File Attacks | T1187 | Credential Access |
-| 12 | GPP / cPassword Attacks | T1552.006 | Credential Access |
-| 13 | Mimikatz & Credential Dumping | T1003.001 · T1555.004 | Credential Access |
-| 14 | Dumping NTDS.dit | T1003.003 | Credential Access |
-| 15 | Golden Ticket Attacks | T1558.001 · T1550.003 | Persistence · Lateral Movement |
-| 16 | ZeroLogon — CVE-2020-1472 | T1210 · T1068 | Lateral Movement · Privilege Escalation |
-| 17 | PrintNightmare — CVE-2021-1675 | T1210 · T1068 | Lateral Movement · Privilege Escalation |
+| **✅ PJPT** (Practical Junior Penetration Tester) | TCM Security | 2026 | [Verify Certificate](https://certified.tcm-sec.com/6bd6e2e8-01d5-43f8-b508-d0544b58e4af?key=afa14ac35bc9e12f22ad1096cf67d455a3e978cc8477123f8d62cf1d428c135e) |
+| **Practical Bug Bounty** | TCM Security | 2026 | Course Completion |
+| **Python 101 for Hackers** | TCM Security | 2026 | Course Completion |
 
 ---
 
-## 🔴 Red Team — Tools
+## 🏗️ Featured Projects
 
-### Network & Protocol Attacks
-| Tool | Purpose |
-|---|---|
-| [Responder](https://github.com/SpiderLabs/Responder) | LLMNR / NBT-NS / MDNS poisoning — passive NTLMv2 hash capture |
-| [mitm6](https://github.com/dirkjanm/mitm6) | IPv6 / DHCPv6 man-in-the-middle — rogue IPv6 DNS server |
-| [Nmap](https://nmap.org/) | Network scanning, SMB signing detection, service enumeration |
+### 🏰 Active Directory Home Lab — Complete VAPT
 
-### Credential Access & Hash Cracking
-| Tool | Purpose |
-|---|---|
-| [Hashcat](https://hashcat.net/) | GPU-accelerated offline hash cracking (NTLMv2 `5600`, NTLM `1000`, Kerberos TGS `13100`) |
-| [Impacket](https://github.com/fortra/impacket) | `ntlmrelayx`, `secretsdump`, `psexec.py`, `GetUserSPNs` — full AD attack suite |
-| [Mimikatz](https://github.com/gentilkiwi/mimikatz) | LSASS memory credential extraction, Golden Ticket forging (`sekurlsa::logonPasswords`, `kerberos::golden`) |
+[![View Project](https://img.shields.io/badge/View%20on%20GitHub-Active%20Directory%20VAPT-0078D4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/WNobsi/Active-Directory-Home-Lab-VAPT)
 
-### Post-Compromise & Lateral Movement
-| Tool | Purpose |
-|---|---|
-| [NetExec](https://github.com/Pennyw0rth/NetExec) | Credential spraying, PTH, SAM/LSA/LSASS remote dumping across subnets (successor to CrackMapExec) |
-| [Metasploit Framework](https://www.metasploit.com/) | PSExec exploitation, Meterpreter sessions, token impersonation via `incognito` |
+**Enterprise-grade AD penetration testing lab** simulating realistic attack chains from initial access to Domain Admin compromise.
 
-### Active Directory Enumeration & Reporting
-| Tool | Purpose |
-|---|---|
-| [Bloodhound](https://github.com/SpecterOps/BloodHound) | Graph-based AD attack path analysis — visualise shortest paths to Domain Admin |
-| [bloodhound-python](https://github.com/dirkjanm/BloodHound.py) | Python-based Bloodhound data collector (`-c all`) |
-| [PlumHound](https://github.com/PlumHound/PlumHound) | Automated HTML report generation from Bloodhound Neo4j data |
-| [ldapdomaindump](https://github.com/dirkjanm/ldapdomaindump) | LDAP domain enumeration — users, groups, computers, GPOs |
-| [PingCastle](https://www.pingcastle.com/) | Active Directory domain risk scoring and client-deliverable security reporting |
+**Key Achievements:**
+- 🎯 **17 documented attack techniques** across full kill chain
+- 🏢 **3-machine Windows domain** (BATMAN.local) — DC + 2 workstations
+- 🔑 **Complete credential access chain** — LLMNR poisoning → Kerberoasting → Golden Ticket
+- 🛡️ **Defense-aware** — every attack paired with Event ID detection and GPO hardening
+- 📊 **MITRE ATT&CK mapped** — 15+ TTP IDs documented
 
----
-
-## 🧠 Red Team — Concepts & Techniques
-
-### Credential Access
-- **LLMNR / NBT-NS Poisoning** — passive NTLMv2 hash capture via Windows multicast name resolution fallback
-- **SMB Relay** — relay captured hashes in real-time to authenticate as the victim, bypassing the need to crack
-- **Kerberoasting** — request TGS-REP tickets for SPNs and crack offline with any domain user account
-- **Pass-the-Hash (PTH)** — authenticate with NTLM hash directly, no plaintext password required
-- **Pass-the-Password** — spray valid credentials across subnets to identify lateral movement targets
-- **LSASS Memory Dumping** — extract cached credentials, NTLM hashes, and Kerberos tickets from LSASS
-- **SAM / LSA Secrets Dumping** — extract local account hashes and service account credentials
-- **NTDS.dit Extraction** — dump the entire domain credential database via DRSUAPI replication protocol
-- **GPP / cPassword** — decrypt GPO-stored passwords using the publicly-leaked Microsoft AES encryption key
-
-### Lateral Movement & Execution
-- **PSExec (Impacket & Metasploit)** — remote SYSTEM shell via SMB service execution
-- **WMIExec / SMBExec** — stealthy remote execution alternatives leaving minimal disk artefacts
-- **SMB Relay Shell** — interactive shells and remote command execution via ntlmrelayx relay chain
-- **LNK File Attacks** — force hash capture by embedding UNC paths in Windows shortcut files placed on shares
-
-### Privilege Escalation & Persistence
-- **Token Impersonation** — steal Domain Admin delegation tokens from memory using Meterpreter `incognito`
-- **Golden Ticket** — forge Kerberos TGTs signed with the `krbtgt` hash for permanent, persistent domain access
-- **IPv6 / LDAP Relay** — relay high-privilege authentication to LDAPS to create new domain admin accounts passively
-- **Domain Account Backdoor** — add DA persistence accounts (`net user /add ... /domain`) via impersonated token context
-
-### CVE Exploitation
-- **ZeroLogon (CVE-2020-1472)** — CVSS 10.0, unauthenticated Domain Controller takeover via Netlogon AES-CFB8 flaw
-- **PrintNightmare (CVE-2021-1675 / CVE-2021-34527)** — domain user to SYSTEM via Print Spooler RCE (tested against hardened Server 2022)
-
----
-
-## 🛡️ CDIR — Cyber Defence & Incident Response
-
-Every attack in the lab is documented alongside its corresponding detection and mitigation strategy — building both offensive and defensive understanding.
-
-### Detection & Mitigation Coverage
-
-| Attack Vector | Key Detection | Mitigation |
+**Attack Coverage:**
+| Technique | MITRE ID | Impact |
 |---|---|---|
-| LLMNR Poisoning | LLMNR/NBT-NS traffic spikes; Event ID 4625 | Disable LLMNR & NBT-NS via GPO |
-| SMB Relay | Unexpected cross-host SMB auth; lateral movement | Enable SMB Signing on ALL endpoints |
-| IPv6 / mitm6 | Rogue DHCPv6 traffic; unexpected DNS server changes | Block DHCPv6 via Windows Firewall GPO |
-| Pass-the-Hash | Event ID 4624 Type 3 anomalies; LAPS violations | LAPS; unique local admin passwords; account tiering |
-| Kerberoasting | Bulk TGS-REQ from single account; Event ID 4769 | gMSA; service account passwords >25 characters |
-| Token Impersonation | Admin logons to workstations; privilege escalation events | Account Tiering; Privileged Access Workstations (PAW) |
-| LSASS Dumping | Process access to lsass.exe; Event ID 4656 | Credential Guard; LSASS PPL; EDR |
-| Golden Ticket | Anomalous Kerberos ticket lifetimes; Event ID 4769/4770 | Rotate `krbtgt` TWICE; Microsoft Defender for Identity |
-| NTDS.dit Dump | DRSUAPI replication from non-DC source; Event ID 4662 | Limit DCSync rights; monitor replication events |
-| ZeroLogon | Netlogon auth with empty credentials; Event ID 5829 | Apply August 2020 patch; enforce Netlogon secure channel |
-| GPP/cPassword | SYSVOL XML files containing `cPassword` attribute | Delete GPP XML files; apply KB2962486 |
+| LLMNR/NBT-NS Poisoning | T1557.001 | NTLMv2 hash capture |
+| SMB Relay | T1557.001 | SAM/LSA dumping |
+| Kerberoasting | T1558.003 | Service account compromise |
+| Pass-the-Hash | T1550.002 | Lateral movement |
+| Mimikatz / LSASS Dumping | T1003.001 | Credential extraction |
+| Golden Ticket | T1558.001 | Persistent DA access |
+| ZeroLogon (CVE-2020-1472) | CVE-2020-1472 | DC takeover |
+| PrintNightmare (CVE-2021-1675) | CVE-2021-1675 | SYSTEM escalation |
 
-### Hardening Principles Documented
-- **Account Tiering (Tier 0/1/2)** — prevent Domain Admin credentials from being exposed on workstations
-- **Privileged Access Workstations (PAW)** — dedicated hardened machines for all privileged administrative tasks
-- **Protected Users Security Group** — prevents delegation token creation for sensitive high-privilege accounts
-- **LSASS as Protected Process Light (PPL)** — block LSASS memory reads even with local admin rights
-- **Credential Guard (VBS)** — virtualization-based security isolating LSASS from the OS
-- **SMB Signing** — prevent relay attacks across the entire domain
-- **gMSA (Group Managed Service Accounts)** — eliminate Kerberoastable service accounts with 120-char auto-rotated passwords
-- **LDAP Signing & Channel Binding** — prevent LDAP relay attacks targeting Domain Controllers
-
-### Defensive Tools Explored
-| Tool | Defensive Use |
-|---|---|
-| PingCastle | Domain risk scoring; finds stale accounts, over-privileged DAs, trust issues |
-| Bloodhound | Identify and remediate attack paths *before* attackers do |
-| PlumHound | Generate audit-ready HTML security reports from AD data |
-| Windows Event Log | Correlated Event IDs mapped to each attack for SOC-level detection |
+**Tools Used:** Responder, Impacket Suite, Bloodhound, Mimikatz, Hashcat, NetExec, mitm6
 
 ---
 
-## 📚 Training & Resources
+### 🌐 Web Application VAPT Lab — OWASP Top 10
 
-| Resource | Focus |
-|---|---|
-| [TCM Security — Practical Ethical Hacking](https://academy.tcm-sec.com) | Internal network pentesting, AD attacks — core PJPT curriculum |
-| [MITRE ATT&CK for Enterprise](https://attack.mitre.org) | Threat modelling, technique IDs, tactic categorisation |
-| [Impacket Documentation](https://github.com/fortra/impacket) | Core AD attack tooling reference |
-| [SpecterOps Bloodhound Docs](https://support.bloodhoundenterprise.io) | Attack path analysis methodology |
-| [Hashcat Wiki — Example Hashes](https://hashcat.net/wiki/doku.php?id=example_hashes) | Hash mode reference for all credential types |
+[![View Project](https://img.shields.io/badge/View%20on%20GitHub-Web%20Application%20VAPT-FF6B00?style=for-the-badge&logo=github&logoColor=white)](https://github.com/WNobsi/web-application-vapt-lab)
+
+**Comprehensive web security testing** across DVWA and PortSwigger Web Security Academy with professional pentest reporting.
+
+**Key Achievements:**
+- 🎯 **32 documented vulnerabilities** with full exploitation walkthroughs
+- 🔴 **9 Critical findings** — SQL injection, command injection, unrestricted file upload → RCE
+- 🟠 **19 High severity** — XSS (reflected, stored, DOM), authentication bypass, CSRF, IDOR
+- 📋 **Enterprise report** — CVSS v3.1 scoring, remediation recommendations, Burp Suite evidence
+- ✅ **100% OWASP Top 10 (2021) coverage**
+
+**Vulnerability Classes:**
+| Category | Findings | Severity |
+|---|---|---|
+| **A03: Injection** | SQL Injection (6), XSS (6), Command Injection (2) | Critical/High |
+| **A01: Broken Access Control** | CSRF, IDOR, Unprotected Admin (4) | Critical/High |
+| **A07: Authentication Failures** | 2FA bypass, Brute-force, Session fixation (5) | Critical/High |
+| **A04: Insecure Design** | File Upload RCE, API flaws (5) | Critical/High |
+| **A05: Security Misconfiguration** | LFI, Info disclosure (2) | High/Medium |
+
+**Tools Used:** Burp Suite, sqlmap, Nmap, Hydra, netcat, msfvenom
 
 ---
 
-## 🎯 Goals (2026)
+## 🖥️ CTF & Machine Writeups
 
-- ✅ Earn PJPT
-- ✅ Active Directory Attack Series
-- ⏳ Secure first Offensive Security role
-- ⏳ Build reusable offensive security tooling
-- ⏳ Publish high-quality penetration testing documentation
+### Recent Completions:
+
+| Platform | Machine/Challenge | Type | Key Techniques |
+|---|---|---|---|
+| **HTB** | [Cyber Apocalypse 2026: Gatery](https://github.com/WNobsi/HTB-Cyber-Apocalypse-2026-Gatery) | Web CTF | Session management bypass, broken authorization |
+| **TCM** | [BlackPearl](https://github.com/WNobsi/TCM-BlackPearl-Machine-Walkthrough) | Linux | Web exploitation, privilege escalation |
+| **TCM** | [Butler](https://github.com/WNobsi/TCM-Butler-Machine-Walkthrough-) | Windows | Jenkins RCE, unquoted service path → SYSTEM |
+| **TCM** | [Dev](https://github.com/WNobsi/TCM-Dev-Machine-Walkthrough) | Linux | Boltwire LFI, NFS enumeration, sudo abuse |
+| **TCM** | [Academy](https://github.com/WNobsi/TCM-Academy-Machine-Walkthrough) | Linux | FTP disclosure, file upload, cron job abuse → root |
+| **VulnHub** | [Kioptrix Level 1](https://github.com/WNobsi/kioptrix.level1-using-Metaploit) | Linux | Samba trans2open exploit, mod_ssl buffer overflow |
+
+---
+
+## 🛠️ Technical Skills
+
+### Active Directory & Internal Network
+- **Credential Access:** LLMNR poisoning, SMB relay, Kerberoasting, LSASS dumping, NTDS.dit extraction
+- **Lateral Movement:** Pass-the-Hash, PSExec, WMIExec, SMBExec
+- **Privilege Escalation:** Token impersonation, Golden Ticket, ZeroLogon, PrintNightmare
+- **Enumeration:** Bloodhound, ldapdomaindump, NetExec, PingCastle
+- **Tools:** Responder, Impacket, Mimikatz, Hashcat, mitm6, Metasploit
+
+### Web Application Security
+- **OWASP Top 10:** SQL injection (UNION, blind, auth bypass), XSS (reflected, stored, DOM), command injection
+- **Access Control:** CSRF, IDOR, authentication bypass, session management flaws
+- **File Security:** Unrestricted upload → RCE, LFI/RFI, path traversal
+- **API Security:** Mass assignment, parameter pollution, SSRF, endpoint enumeration
+- **Tools:** Burp Suite, sqlmap, Nmap, Hydra, ffuf, Nikto
+
+### Exploitation & Post-Exploitation
+- **Linux PrivEsc:** SUID abuse, sudo misconfiguration, cron jobs, kernel exploits
+- **Windows PrivEsc:** Unquoted service paths, weak service ACLs, registry exploitation
+- **CVE Research:** Exploit-DB, GitHub PoCs, Metasploit modules
+- **Reverse Shells:** bash /dev/tcp, PHP, Groovy, netcat, msfvenom payloads
+- **Tools:** LinPEAS, winPEAS, GTFOBins
+
+### Scripting & Automation
+- **Python 3:** pwntools, Paramiko, custom exploitation scripts
+- **Bash:** Automation, enumeration scripts, reverse shell one-liners
+- **PowerShell:** Windows post-exploitation, service manipulation
+
+### Methodologies & Frameworks
+- **MITRE ATT&CK:** 15+ techniques mapped with detection strategies
+- **OWASP Testing Guide:** Web application testing methodology v4.2
+- **PTES:** Penetration Testing Execution Standard
+- **CVSS v3.1:** Vulnerability severity scoring and risk assessment
+
+---
+
+## 📊 Portfolio Statistics
+
+```
+🎯 Active Directory Attacks Documented:    17
+🌐 Web Vulnerabilities Found:              32
+🏆 Machines Compromised:                   6
+📝 Technical Writeups Published:           9
+🛠️ Tools Mastered:                        30+
+📋 Professional Reports Generated:         2
+🔴 Critical Findings:                      9
+🟠 High Severity Findings:                 19
+```
+
+---
+
+## 📞 Contact & Links
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-wnobsi.github.io-00d4ff?style=for-the-badge&logo=github)](https://wnobsi.github.io/portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-in%2Fwnobex-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/wnobex/)
+[![Email](https://img.shields.io/badge/Email-wnobex%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wnobex@gmail.com)
+
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-itsNobushi-212C42?style=for-the-badge&logo=tryhackme)](https://tryhackme.com/p/itsNobushi)
+[![HackTheBox](https://img.shields.io/badge/HackTheBox-Profile-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black)](https://profile.hackthebox.com/profile/019d674b-e4f9-70d6-a8b8-f9012e6c5cf2)
+
+</div>
+
+---
+
+## 🎯 What I'm Looking For
+
+**Open to roles in:** Penetration Testing, Red Team Operations, Security Assessment, Application Security Testing
+
+**Preferred location:** Mumbai, India (open to remote opportunities)
+
+**Why hire me?**
+- ✅ Production-ready penetration testing skills backed by 50+ documented vulnerabilities
+- ✅ PJPT certification validating real-world AD and network pentesting ability
+- ✅ Strong documentation skills — every attack includes methodology, evidence, and remediation
+- ✅ Defensive mindset — understand both offensive techniques and detection/mitigation strategies
+- ✅ Continuous learner — active on HTB, THM, and TCM platforms with ongoing CTF participation
 
 ---
 
 <div align="center">
 
-*"Understanding why an attack works, how defenders detect it, and how to document findings in a professional consulting style."*
+### 💡 "Understanding why an attack works, how defenders detect it, and how to document findings in a professional consulting style."
 
-[![GitHub](https://img.shields.io/badge/GitHub-WNobsi-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/WNobsi)
+**⚠️ All techniques demonstrated in isolated, self-owned virtual labs for educational purposes only.**
 
 </div>
