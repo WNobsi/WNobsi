@@ -33,8 +33,6 @@ PJPT-certified penetration tester with hands-on experience in **Active Directory
 | Certification | Issuer | Year | Verification |
 |---|---|---|---|
 | **✅ PJPT** (Practical Junior Penetration Tester) | TCM Security | 2026 | [Verify Certificate](https://certified.tcm-sec.com/6bd6e2e8-01d5-43f8-b508-d0544b58e4af?key=afa14ac35bc9e12f22ad1096cf67d455a3e978cc8477123f8d62cf1d428c135e) |
-| **Practical Bug Bounty** | TCM Security | 2026 | Course Completion |
-| **Python 101 for Hackers** | TCM Security | 2026 | Course Completion |
 
 ---
 
